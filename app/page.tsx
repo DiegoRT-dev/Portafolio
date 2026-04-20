@@ -66,10 +66,27 @@ export default function Home() {
                 "React",
                 "Zustand",
                 "Prisma",
-                "MySQL",
+                "PostgreSQL (Supabase)",
               ]}
               btn1Link="https://github.com/DiegoRT-dev/zustore"
               btn2Link="https://zustore-y1tz.vercel.app/"
+            />
+            <ProyectCard
+              image="/sales.png"
+              title="SaleSync"
+              text="Sistema de ventas con carrito, control de inventario y estadísticas en tiempo real."
+              tech={[
+                "Next.js",
+                "TypeScript",
+                "Tailwind",
+                "React",
+                "Zustand",
+                "Prisma",
+                "PostgreSQL (Supabase)",
+                "Recharts"
+              ]}
+              btn1Link="https://github.com/DiegoRT-dev/salesync"
+              btn2Link="https://salesync-neon.vercel.app/"
             />
           </div>
         </div>
