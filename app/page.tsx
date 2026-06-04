@@ -106,6 +106,8 @@ export default function Home() {
               "MySQL",
               "Git",
               "Vercel",
+              "Python",
+              "Node"
             ].map((tech) => (
               <li
                 key={tech}
